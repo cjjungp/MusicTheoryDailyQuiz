@@ -1,10 +1,10 @@
-# Magic8Ball 🔮
+# MusicTheoryDailyQuiz 🔮
 
-Follow the instructions in the .java file to create a Java program to predict a user's future 🔮
+Follow the instructions in the .java file to answer Music Theory Quiz! 🔮
 
 ## Variations and Enhancements
 
-* Change magic 8-ball to magic obelsik (or anything else creative)
-* Keyword/name recognition
-* Memory of past questions
-* Expanding to handle more than yes/non questions
+* Adding more sound files
+* More Music Theory topics 
+* Logging quiz history
+* Expanding functionality
