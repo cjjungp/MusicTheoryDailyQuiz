@@ -30,8 +30,16 @@ public class MusicTheoryDailyQuiz {
                     System.out.println("You are now in C major");
                     System.out.println();
                     break;
+                case "Db major":
+                    System.out.println("You are now in Db major");
+                    System.out.println();
+                    break;
                 case "D major":
                     System.out.println("You are now in D major");
+                    System.out.println();
+                    break;
+                case "Eb major":
+                    System.out.println("You are now in Eb major");
                     System.out.println();
                     break;
                 case "E major":
@@ -42,12 +50,24 @@ public class MusicTheoryDailyQuiz {
                     System.out.println("You are now in F major");
                     System.out.println();
                     break;
+                case "Gb major":
+                    System.out.println("You are now in Gb major");
+                    System.out.println();
+                    break;
                 case "G major":
                     System.out.println("You are now in G major");
                     System.out.println();
                     break;
+                case "Ab major":
+                    System.out.println("You are now in Ab major");
+                    System.out.println();
+                    break;
                 case "A major":
                     System.out.println("You are now in A major");
+                    System.out.println();
+                    break;
+                case "Bb major":
+                    System.out.println("You are now in Bb major");
                     System.out.println();
                     break;
                 case "B major":
@@ -59,10 +79,9 @@ public class MusicTheoryDailyQuiz {
                     break;
             }
 
-            if (isExit){
+            if (isExit) {
                 break;
             }
-
 
 
             // Randomize question
@@ -92,11 +111,21 @@ public class MusicTheoryDailyQuiz {
 
                 } else {
                     System.out.println("Incorrect!");
-                    Wrong.play();}
+
+//                    String[] wrongArray = {"Wrong", "Wrong2", "Wrong3"};
+//
+//                    for (String i : wrongArray) {
+                    Wrong.play();
+                }
+//                    }
+//                    Wrong2.play();
+//                }
+//                Wrong3.play();
+//            }
+//        }
+
 
             }
-
-
 
             if (randomNumber == 1) {
                 System.out.println("Spell the notes for Chord ii");
@@ -240,19 +269,22 @@ public class MusicTheoryDailyQuiz {
                 }
 
 
-
-
-
-
-
-
-
-
             }
 
         }
         UserOutput.closingGraphics();
     }
+
+
+
+
+
+
+
+
+
+
+
 
 //    public static void playSound(String choice) {
 //        new SoundPlayer("C:\\Users\\Student\\workspace\\side-projects\\MusicTheoryDailyQuiz\\" + choice + ".wav").play();
