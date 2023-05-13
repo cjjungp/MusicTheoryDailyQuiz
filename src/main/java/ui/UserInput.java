@@ -24,7 +24,7 @@ public class UserInput {
         }
 
         else if (option.equals("d")){
-            return "D major";
+            return  "D major";
         }
 
         else if (option.equals("eb")){
@@ -68,13 +68,4 @@ public class UserInput {
             return "";
         }
     }
-
-
-//    public static String randomizeQuestions (){
-//        System.out.println("Spell the note for Chord I");
-//        System.out.println();
-//
-//
-//    }
-
 }

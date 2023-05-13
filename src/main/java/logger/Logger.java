@@ -24,17 +24,14 @@ public class Logger {
         }
     }
 
-    public void write(String message) {
-        //can change this to printf to make perfect formatting
-        this.writer.printf(message);
+    public void write(String keySignature, String date) {
+        this.writer.println(date + ", " + keySignature);
         this.writer.flush();
     }
 
-
-//    @Override
-//    public void close() throws IOException {
-//        this.writer.close();
-//    }
-
+    public void write2(String keySignature, String input, String answer, String date) {
+        this.writer.println(date + ", " + keySignature + ", " + input + ", " + answer);
+        this.writer.flush();
+    }
 
 }

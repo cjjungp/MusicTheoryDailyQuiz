@@ -5,85 +5,77 @@ import java.util.Scanner;
 
 public class musicalNotes {
 
-    private String chordI;
-    private String chordII;
-    private String chordIII;
-    private String chordIV;
-    private String chordV;
-    private String chordVI;
-    private String chordVII;
+    private String C_I;
+    private String C_ii;
+    private String C_iii;
+    private String C_IV;
+    private String C_V;
+    private String C_vi;
+    private String C_viio;
 
-    public void listOfChords (String chordI, String chordII, String chordIII, String chordIV, String chordV, String chordVI, String chordVII) {
-        this.chordI = chordI;
-        this.chordII = chordII;
-        this.chordIII = chordIII;
-        this.chordIV = chordIV;
-        this.chordV = chordV;
-        this.chordVI = chordVI;
-        this.chordVII = chordVII;
-
+    public void listOfChords(String C_I, String C_ii, String C_iii, String C_IV, String C_V, String C_vi, String C_viio) {
+        this.C_I = C_I;
+        this.C_ii = C_ii;
+        this.C_iii = C_iii;
+        this.C_IV = C_IV;
+        this.C_V = C_V;
+        this.C_vi = C_vi;
+        this.C_viio = C_viio;
     }
 
-    public String getChordI() {
-        return chordI;
+    public String getC_I() {
+        return C_I;
     }
 
-    public void setChordI(String chordI) {
-        this.chordI = chordI;
+    public void setC_I(String c_I) {
+        C_I = c_I;
     }
 
-    public String getChordII() {
-        return chordII;
+    public String getC_ii() {
+        return C_ii;
     }
 
-    public void setChordII(String chordII) {
-        this.chordII = chordII;
+    public void setC_ii(String c_ii) {
+        C_ii = c_ii;
     }
 
-    public String getChordIII() {
-        return chordIII;
+    public String getC_iii() {
+        return C_iii;
     }
 
-    public void setChordIII(String chordIII) {
-        this.chordIII = chordIII;
+    public void setC_iii(String c_iii) {
+        C_iii = c_iii;
     }
 
-    public String getChordIV() {
-        return chordIV;
+    public String getC_IV() {
+        return C_IV;
     }
 
-    public void setChordIV(String chordIV) {
-        this.chordIV = chordIV;
+    public void setC_IV(String c_IV) {
+        C_IV = c_IV;
     }
 
-    public String getChordV() {
-        return chordV;
+    public String getC_V() {
+        return C_V;
     }
 
-    public void setChordV(String chordV) {
-        this.chordV = chordV;
+    public void setC_V(String c_V) {
+        C_V = c_V;
     }
 
-    public String getChordVI() {
-        return chordVI;
+    public String getC_vi() {
+        return C_vi;
     }
 
-    public void setChordVI(String chordVI) {
-        this.chordVI = chordVI;
+    public void setC_vi(String c_vi) {
+        C_vi = c_vi;
     }
 
-    public String getChordVII() {
-        return chordVII;
+    public String getC_viio() {
+        return C_viio;
     }
 
-    public void setChordVII(String chordVII) {
-        this.chordVII = chordVII;
+    public void setC_viio(String c_viio) {
+        C_viio = c_viio;
     }
-
-
-    // Method
-
-//    public void
-
-
 }

@@ -1,7 +1,14 @@
 package SoundFiles;
 
 public class Wrong {
+    private static SoundPlayer sound = new SoundPlayer("C:\\Users\\Student\\workspace\\side-projects\\MusicTheoryDailyQuiz\\Wrong.wav");
+
+
     public static void play() {
-        new SoundPlayer("C:\\Users\\Student\\workspace\\side-projects\\MusicTheoryDailyQuiz\\Wrong.wav").play();
+        sound.play();
+    }
+
+    public static void stop() {
+        sound.stop();
     }
 }
